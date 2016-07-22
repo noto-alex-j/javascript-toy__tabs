@@ -1,1 +1,41 @@
-/* Replace me with your styles! */
+.tabsbar {
+	position: fixed;
+	left: 50vw;
+	transform: translate(-50%, 0%);
+	display: flex;
+	flex-flow: row;
+}
+
+.tab {
+	border: 2px solid black;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.content {
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	display: inline-block;
+}
+
+.tab1content {
+	color: black;
+	display: none;
+	z-index: 100;
+}
+
+.tab2content {
+	color: black;
+	display: none;
+	z-index: 100;
+}
+
+.tab3content {
+	color: black;
+	display: none;
+	z-index: 100;
+}
+
